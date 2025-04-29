@@ -141,8 +141,10 @@
         "store_credit": "Du har <strong>{store_credit}</strong> butikskredit. Du kan använda den genom att helt enkelt göra en beställning och välja butikskredit som betalningsmetod när det är dags att betala för beställningen.",
         "store_credit_overview": "{credit} butikskredit",
         "generic_error": "Hoppsan! Något gick fel.",
-        "currency": "Välj valuta: {code}",
+        "currency": "Valuta: {code}",
         "currency_switch_promotion": "Kampanjer och presentkort som inte gäller för den nya valutan kommer att tas bort från kundvagnen. Är du säker på att du vill fortsätta?",
+        "channel": "Butik: {code}",
+        "channel_switch_warning": "Varningstext för byte av butik",
         "newsletter_signup": "Registrera dig för vårt nyhetsbrev",
         "form_submit": "Skicka in",
         "no_preference": "Ingen preferens",
@@ -181,6 +183,7 @@
         "paginator": {
             "page_of": "Sida {current} av {total}"
         },
+        "pagination": "sidnumrering",
         "prices_are_in": "Priserna är i {CODE}",
         "previous": "Föregående",
         "next": "Nästa",
@@ -225,7 +228,7 @@
     },
     "category": {
         "label": "Kategorier",
-        "product_label": "Filtered products",
+        "product_label": "Filtrerade produkter",
         "shop_by_price": "Handla efter pris",
         "shop_by_price_range_aria": "Prisintervall från {from} till {to}",
         "filter_price_range": "Prisklass:",
@@ -706,6 +709,7 @@
             "reviews": {
                 "rating": "Fältet \"Betyg\" får inte vara tomt.",
                 "title": "Fältet \"Granska ämne\" får inte vara tomt.",
+                "name": "Fältet ”Namn” kan inte vara tomt.",
                 "comment": "Fältet \"Kommentarer\" får inte vara tomt."
             }
         }
@@ -872,7 +876,7 @@
         "faceted": {
             "selected": {
                 "title": "Förfina med",
-                "facet-label": "Applied filters",
+                "facet-label": "Tillämpade filter",
                 "rating-label": "Betygsatte {rating, plural, one {# Star} other {# Stars}} eller mer",
                 "no-filters": "Inga filter tillämpade",
                 "clear-all": "Rensa alla"
@@ -887,6 +891,7 @@
             "rating": {
                 "and-up": "och upp"
             },
+            "label": "Följande textfält filtrerar resultaten som följer när du skriver",
             "toggleSection": "Aktivera filteravsnitt {title}",
             "clear": "Rensa",
             "more": "Mer",
